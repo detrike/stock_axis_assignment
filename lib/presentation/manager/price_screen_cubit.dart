@@ -50,7 +50,7 @@ class PriceScreenCubit extends Cubit<PriceScreenState> {
 
       updatedPrice = selectedPrices.values.fold(0, (sum, item) => sum + item);
 
-      if (selectedPrices.length == 2) {
+      if (selectedPrices.length == 2) {   // if 2 product selected then 20% discount
         updatedPrice = (updatedPrice * 0.8).round();
       }
 
