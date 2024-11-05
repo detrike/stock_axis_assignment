@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+Stock Axis Assignment-
+
+-used http package for networking
+-used Bloc/Cubit for state management
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
