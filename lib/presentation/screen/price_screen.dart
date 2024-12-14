@@ -52,7 +52,7 @@ class _PricingScreenState extends State<PricingScreen> {
                         'description': 'Invest in up-trending Smallcap stocks screened through MILARS strategy to generate wealth.',
                         'plans': [
                           '${state.littleMasterDataState?.productData[0].pDescription ?? ''} - ${state.littleMasterDataState?.productData[0].pAmount ?? ''}',
-                          '${state.littleMasterDataState?.productData[1].pDescription ?? ''} - ${state.littleMasterDataState?.productData[1].pAmount ?? ''}'
+                         // '${state.littleMasterDataState?.productData[1].pDescription ?? ''} - ${state.littleMasterDataState?.productData[1].pAmount ?? ''}'
                         ],
                         'dropDownIndex': 1,
                       },
@@ -63,7 +63,7 @@ class _PricingScreenState extends State<PricingScreen> {
                         'description': 'Generate Wealth By Riding Momentum in Midcap stock screened through MILARS strategy',
                         'plans': [
                           '${state.emergingMarketState?.productData[0].pDescription ?? ''} - ${state.emergingMarketState?.productData[0].pAmount ?? ''}',
-                          '${state.emergingMarketState?.productData[1].pDescription ?? ''} - ${state.emergingMarketState?.productData[1].pAmount ?? ''}'
+                        //  '${state.emergingMarketState?.productData[1].pDescription ?? ''} - ${state.emergingMarketState?.productData[1].pAmount ?? ''}'
                         ],
                         'dropDownIndex': 2,
                       },
@@ -74,7 +74,7 @@ class _PricingScreenState extends State<PricingScreen> {
                         'description': 'Achieve stable growth in your portfolio by investing in Bluechip stocks passed through MILARS strategy.',
                         'plans': [
                           '${state.largeCapFocusState?.productData[0].pDescription ?? ''} - ${state.largeCapFocusState?.productData[0].pAmount ?? ''}',
-                          '${state.largeCapFocusState?.productData[1].pDescription ?? ''} - ${state.largeCapFocusState?.productData[1].pAmount ?? ''}'
+                         // '${state.largeCapFocusState?.productData[1].pDescription ?? ''} - ${state.largeCapFocusState?.productData[1].pAmount ?? ''}'
                         ],
                         'dropDownIndex': 3,
                       },

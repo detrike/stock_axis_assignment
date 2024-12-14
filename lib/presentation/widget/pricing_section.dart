@@ -32,7 +32,7 @@ class PricingSection extends StatelessWidget {
               ),
               child: const Text(
                 'Proceed For Payment',
-                style: TextStyle(fontSize: 13),
+                style: TextStyle(fontSize: 13, color: Colors.black),
               ),
             ),
           ],
